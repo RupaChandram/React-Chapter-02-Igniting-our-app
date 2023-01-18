@@ -1,0 +1,32 @@
+{
+  "name": "react-chapter-02-igniting-our-app",
+  "version": "1.0.0",
+  "description": "* Chapter-02 was about creating production-ready react app from scratch without using create-react-app.\r * Production-ready app on the second day of a course ? sounds interesting right ?? \r * The concept of bundlers (Parcel) was explained in detail. \r * We all assume React is the one superpower that makes the application faster, though it is partially right, the major credit goes to the other packages/helper utilities (Bundler) for speeding up the application, optimizing the code, improving the performance and lots more. Find the other interesting powerful featured of bundler in class notes.\r * One line about this chapter : As Akshay says Parcel is a BEAST.\r * If you are interested in learning other chapters of this series, please browse through the my repositories. Notes in md file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RupaChandram/React-Chapter-02-Igniting-our-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RupaChandram/React-Chapter-02-Igniting-our-app/issues"
+  },
+  "homepage": "https://github.com/RupaChandram/React-Chapter-02-Igniting-our-app#readme",
+  "devDependencies": {
+    "parcel": "^2.8.2",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
